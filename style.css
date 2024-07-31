@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+#navbar{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+#nav-part1{
+    
+    display: flex;
+    align-items: center;
+}
+
+#menu{
+    font-weight: 500;
+    font-size: 16px;
+    border: 1.5px solid black;
+    border-radius: 50px;
+    padding: 5px 10px; 
+}
+
+.ri-menu-3-line{
+    border: 1.5px solid black;
+    border-radius: 50px;
+    padding: 5px 10px; 
+}
+
+#Company-Name{
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#login{
+    font-size: 16px;
+    font-weight: 500;
+    background: #ffffff;
+    border: 1.5px solid black;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+
+#signup{
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    background: orangered;
+    border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+
+
+#mainbodytext{
+    font-size: 90px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+
+#pic1{
+    width: 300px;
+    height: 380px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#pic2{
+    width: 300px;
+    height: 380px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#pic3{
+    width: 300px;
+    height: 380px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#pic4{
+    width: 300px;
+    height: 380px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+#pic1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+
+#pic2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+
+#pic3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+#btm-left{
+    font-weight: 400;
+    font-size: 15px;
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+
+}
+
+#icons{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
+#scroll{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#scrolltext{
+    
+    /* width: 100%; */
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 4%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#second{
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+}
+
+#intro-heading{
+    font-size: 40px;
+    position: absolute;
+    top: 115%;
+    left: 3%;
+
+}
+
+#intro-text{
+    font-weight: 400;
+    line-height: 1.5;
+    position: absolute;
+    top: 200px;
+    left: 3%;
+}
